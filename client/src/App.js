@@ -16,7 +16,7 @@ class App extends Component {
 
   componentDidMount() {
     this.getDivvyBikes();
-    setInterval(this.getDivvyBikes, 5000);
+    setInterval(this.getDivvyBikes, 60000);
   }
 
   render() {
